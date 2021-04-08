@@ -215,6 +215,7 @@ KangaskhanEvosMoves:
 	db 31, TAIL_WHIP
 	db 36, MEGA_PUNCH
 	db 41, LEER
+	db 43, DRAIN_PUNCH
 	db 46, DIZZY_PUNCH
 	db 0
 
@@ -474,6 +475,7 @@ GastlyEvosMoves:
 	db EV_LEVEL, 25, HAUNTER
 	db 0
 ; Learnset
+	db 14, SHADOW_BALL
 	db 27, HYPNOSIS
 	db 35, DREAM_EATER
 	db 0
@@ -652,7 +654,7 @@ ChanseyEvosMoves:
 
 MachokeEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, MACHAMP
+	db EV_LEVEL, 50, MACHAMP
 	db 0
 ; Learnset
 	db 20, LOW_KICK
