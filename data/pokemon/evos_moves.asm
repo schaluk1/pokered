@@ -1227,6 +1227,7 @@ JigglypuffEvosMoves:
 	db EV_ITEM, MOON_STONE, 1, WIGGLYTUFF
 	db 0
 ; Learnset
+	db 2, JIGGLYPUFF_BLAST
 	db 9, POUND
 	db 14, DISABLE
 	db 19, DEFENSE_CURL
@@ -1304,6 +1305,7 @@ MachopEvosMoves:
 ; Learnset
 	db 20, LOW_KICK
 	db 25, LEER
+	db 27, DRAIN_PUNCH
 	db 32, FOCUS_ENERGY
 	db 39, SEISMIC_TOSS
 	db 46, SUBMISSION
@@ -1385,6 +1387,7 @@ BeedrillEvosMoves:
 	db 0
 ; Learnset
 	db 12, FURY_ATTACK
+	db 14, SWORDS_DANCE
 	db 16, FOCUS_ENERGY
 	db 20, TWINEEDLE
 	db 25, RAGE
@@ -1416,6 +1419,7 @@ PrimeapeEvosMoves:
 ; Learnset
 	db 15, KARATE_CHOP
 	db 21, FURY_SWIPES
+	db 24, DRAIN_PUNCH
 	db 27, FOCUS_ENERGY
 	db 37, SEISMIC_TOSS
 	db 46, THRASH
